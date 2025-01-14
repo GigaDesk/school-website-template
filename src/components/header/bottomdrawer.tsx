@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export default function BottomDrawer() {
   return (
     <div
-      className="grid grid-rows-4 px-12 bg-white text-lg border-b border-neutral-700 pt-20"
+      className="grid grid-rows-3 px-12 bg-white text-lg border-b border-neutral-700 pt-20"
       style={{ fontFamily: "Graphik" }}
     >
       <Link
@@ -15,7 +15,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Industries
+        Who we are
       </Link>
       <Link
         activeClass="bg-green-950 text-white"
@@ -25,7 +25,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Capabilities
+        What we offer
       </Link>
       <Link
         activeClass="bg-green-950 text-white"
@@ -36,16 +36,6 @@ export default function BottomDrawer() {
         className="py-2"
       >
         Our Insights
-      </Link>
-      <Link
-        activeClass="bg-green-950 text-white"
-        to="about kmg"
-        spy={true}
-        offset={-50}
-        smooth={true}
-        className="py-2"
-      >
-        About KMG
       </Link>
     </div>
   );
