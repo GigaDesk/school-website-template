@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Link } from "react-scroll";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import {useState} from "react";
 
 export default function Navbar(props) {
 
@@ -12,9 +11,9 @@ export default function Navbar(props) {
       style={{ fontFamily: "Graphik" }}
     >
       <div className="font-medium text-xxxl text-green-950 content-center">
-        KMG
+        Name & Badge
       </div>
-      <div className="grid grid-cols-4 max-lg:hidden">
+      <div className="grid grid-cols-3 max-lg:hidden">
         <Link
           activeClass="before:w-[25%] after:w-[25%]"
           to="industries"
@@ -23,7 +22,7 @@ export default function Navbar(props) {
           smooth={true}
           className="grid justify-items-center content-center px-3 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-green-950 before:origin-center before:h-[3px] before:w-0 hover:before:w-[25%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-green-950 after:origin-center after:h-[3px] after:w-0 hover:after:w-[25%] after:bottom-4 after:right-[50%]"
         >
-          Industries
+          Who we are
         </Link>
         <Link
           activeClass="before:w-[30%] after:w-[28%]"
@@ -33,7 +32,7 @@ export default function Navbar(props) {
           smooth={true}
           className="grid justify-items-center content-center px-3 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-green-950 before:origin-center before:h-[3px] before:w-0 hover:before:w-[30%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-green-950 after:origin-center after:h-[3px] after:w-0 hover:after:w-[28%] after:bottom-4 after:right-[50%]"
         >
-          Capabilities
+          What we offer
         </Link>
         <Link
           activeClass="before:w-[31%] after:w-[31%]"
@@ -44,16 +43,6 @@ export default function Navbar(props) {
           className="grid justify-items-center content-center px-3 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-green-950 before:origin-center before:h-[3px] before:w-0 hover:before:w-[31%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-green-950 after:origin-center after:h-[3px] after:w-0 hover:after:w-[31%] after:bottom-4 after:right-[50%]"
         >
           Our Insights
-        </Link>
-        <Link
-          activeClass="before:w-[30%] after:w-[30%]"
-          to="about kmg"
-          spy={true}
-          offset={-50}
-          smooth={true}
-          className="grid justify-items-center content-center px-3 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-green-950 before:origin-center before:h-[3px] before:w-0 hover:before:w-[30%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-green-950 after:origin-center after:h-[3px] after:w-0 hover:after:w-[30%] after:bottom-4 after:right-[50%]"
-        >
-          About KMG
         </Link>
       </div>
       <div className="grid grid-cols-6 lg:hidden relative">
