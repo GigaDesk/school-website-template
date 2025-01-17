@@ -43,7 +43,7 @@ export default function Partners() {
             harness the power of the cloud, we're here to provide tailored
             solutions that drive your business forward. With GigaDesk, you're
             not just a client; you're a partner. Let's build a brighter digital
-            future together.
+            future together.<a className="underline" href="https://gigadesk.org/"> Visit us at gigadesk.org. </a>
           </div>
         ) : (
           "GigaDesk"
@@ -65,7 +65,7 @@ export default function Partners() {
             of tax laws and regulations, we'll help you minimize tax
             liabilities, avoid costly penalties, and maximize your financial
             returns. With Folio, you can rest assured that your financial future
-            is secure.
+            is secure. <a className="underline" href="https://www.folioac.com/">Visit us at folioac.com. </a>
           </div>
         ) : (
           "Folio"
