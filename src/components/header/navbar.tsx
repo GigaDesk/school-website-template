@@ -42,7 +42,7 @@ export default function Navbar(props) {
           smooth={true}
           className="grid justify-items-center content-center px-3 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-green-950 before:origin-center before:h-[3px] before:w-0 hover:before:w-[31%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-green-950 after:origin-center after:h-[3px] after:w-0 hover:after:w-[31%] after:bottom-4 after:right-[50%]"
         >
-          Our Insights
+          What we think
         </Link>
       </div>
       <div className="grid grid-cols-6 lg:hidden relative">
