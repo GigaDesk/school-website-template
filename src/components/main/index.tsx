@@ -24,7 +24,7 @@ export default function Main() {
         <Insights />
       </Element>
       <Element name="about kmg">
-        <div className="grid justify-items-center pt-20"> Our Brands </div>
+        <div className="grid justify-items-center pt-20"> Our Partners </div>
         <Partners />
       </Element>
     </div>
