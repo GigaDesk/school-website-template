@@ -35,7 +35,7 @@ export default function BottomDrawer() {
         smooth={true}
         className="py-2"
       >
-        Our Insights
+        What we think
       </Link>
     </div>
   );
