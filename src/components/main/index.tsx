@@ -1,7 +1,7 @@
 import * as React from "react";
 import Hero from "./Hero";
 import AboutUs from "./aboutus";
-import Capabilities from "./capabilities";
+import Subjects from "./subjects";
 import Insights from "./Insights";
 import Partners from "./partners";
 import { Element } from "react-scroll";
@@ -17,7 +17,7 @@ export default function Main() {
         <AboutUs />
       </Element>
       <Element name="capabilities" className="mt-24">
-        <Capabilities />
+        <Subjects />
       </Element>
       <Element name="our insights">
         <div className="grid justify-items-center mt-52"> Our Insights </div>
