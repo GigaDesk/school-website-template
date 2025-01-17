@@ -11,12 +11,14 @@ export default function Footer() {
         <div>
           <div>FOLLOW US</div>
           <div>
-            <SocialMediaLinks />
+            SocialMediaLinks
           </div>
         </div>
         <div>
           <div className="pb-4">GET IN TOUCH</div>
+          <p>phonenumber/email</p>
           <div className="pt-4">
+         
             <div className="inline-block">
               <svg
                 className="inline-block"
@@ -34,7 +36,7 @@ export default function Footer() {
               </svg>
             </div>
             <p className="inline-block text-base font-normal">
-              2024 KMG. All Rights Reserved
+              2025 school name. All Rights Reserved
             </p>
           </div>
         </div>
